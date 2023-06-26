@@ -4,15 +4,11 @@
     justify-content: center;
     width: 100wh;
     height: 100vh;
-    margin-top: 60px;
-    background-image: url(https://assets.objkt.media/file/assets-003/QmeDjhkg1iiJMmtKEgn3E4Yv9H8Uu3VFH7pNZ16GjiavF7/artifact);
-    background-position: center;
-    background-size:  100% 100%;
-    background-repeat: no-repeat;
-    
+    margin-top: 60px;    
 
 }
 .container h5{
+    position: absolute;
     width: 300px;
     align-self: center;
     color: #fff;
