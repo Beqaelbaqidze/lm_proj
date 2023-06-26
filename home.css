@@ -1,0 +1,84 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100wh;
+    height: 100vh;
+    margin-top: 60px;
+    background-image: url(https://assets.objkt.media/file/assets-003/QmeDjhkg1iiJMmtKEgn3E4Yv9H8Uu3VFH7pNZ16GjiavF7/artifact);
+    background-position: center;
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    
+
+}
+.container h5{
+    width: 300px;
+    align-self: center;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20%;
+}
+.aboutus{
+    padding: 32px 24px;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center;
+    background-image: url(assets/3d-rendering-ice-mountain-white-cold-terrain_167650-2438.avif);
+}
+.aboutus h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.aboutus h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 18px auto ;
+    /* identical to box height, or 139% */
+    text-align: center;
+    color: #3D8168;;
+}
+.aboutus p{
+    margin: auto;
+    max-width: 600px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+@media (min-width: 768px){
+    .container{
+        
+        margin-top: 70px;
+    }
+    .aboutus{
+        padding: 50px 30px;
+    }
+}
+@media (min-width: 1440px){
+    .container{
+        
+        margin-top: 120px;
+    }
+    .aboutus{
+        padding: 80px 30px;
+    }
+}
