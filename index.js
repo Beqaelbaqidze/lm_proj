@@ -3,7 +3,7 @@ const menu = document.getElementById("menu");
 const clos = document.getElementById("close");
 var x = window.matchMedia("(min-width: 768px)")
 if(x.matches){
-    
+    topnav.style.visibility = "visible";
 }
 function navbar(){
 
@@ -22,7 +22,7 @@ document.addEventListener('scroll', scheader)
 const header = document.getElementById("header");
 
 function scheader(){
-    if(scrollY > 300){
+    if(scrollY > 500){
         header.classList.add("onscroll")
         header.style.transition ="2s"
     }else{

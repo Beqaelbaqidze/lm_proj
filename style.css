@@ -3,7 +3,7 @@ body{
 }
 .header{
     z-index: 1;
-    transition: 0.2s;
+    transition: 0.1s;
     background: inherit;
     width: 100%;
     display: flex;
@@ -14,10 +14,15 @@ body{
 }
 
 .onscroll{
-    transition: 0.2s;
+    transition: 0.1s;
     background-color: #9c9c9c;
+    opacity: 0.6;
+}
+.onscroll:hover{
+    opacity: 1;
 }
 .logo{
+    cursor: pointer;
     width: 30px;
     height: 30px;
     margin: 25px;
@@ -149,7 +154,7 @@ footer h5{
     header{
         background-color: #525558;
         display: flex;
-        height: 70px;
+        height: 120px;
     }
     .menu{
         display: none;
@@ -167,6 +172,7 @@ footer h5{
         z-index: 0;
         padding: 0;
         margin-right: 80px;
+        margin-left: calc(100% - 600px);
         margin-top: 14px;
     }
     
@@ -194,13 +200,20 @@ footer h5{
 }
 @media (min-width: 1440px){
     .header{
+        transition: 0;
         height: 120px;
     }
     .top-nav{
-        margin-left: 1000px;
+        transition: 2s;
+        background-color: inherit;
+        margin-left: calc(100% - 800px);
         margin-right: 200px;
     }
+    .onscroll .top-nav{
+        transition: 2s;
+    }
     .top-nav h3{
+        margin-left: 25px;
         position: relative;
         color: #fff;
     }
